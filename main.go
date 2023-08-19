@@ -36,7 +36,7 @@ func run(w *app.Window) error {
 		case system.FrameEvent:
 			gtx := layout.NewContext(&ops, e)
 
-			title := material.H1(th, "Hello, Gio")
+			title := material.H1(th, "Control Panel")
 			maroon := color.NRGBA{R: 127, G: 0, B: 0, A: 255}
 			title.Color = maroon
 			title.Alignment = text.Middle
